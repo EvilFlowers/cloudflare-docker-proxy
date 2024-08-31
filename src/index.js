@@ -7,17 +7,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.proxy.maguojie-1.workers.dev": dockerHub,
-  "quay.proxy.maguojie-1.workers.dev": "https://quay.io",
-  "gcr.proxy.maguojie-1.workers.dev": "https://gcr.io",
-  "k8s-gcr.proxy.maguojie-1.workers.dev": "https://k8s.gcr.io",
-  "k8s.proxy.maguojie-1.workers.dev": "https://registry.k8s.io",
-  "ghcr.proxy.maguojie-1.workers.dev": "https://ghcr.io",
-  "cloudsmith.proxy.maguojie-1.workers.dev": "https://docker.cloudsmith.io",
-  "ecr.proxy.maguojie-1.workers.dev": "https://public.ecr.aws",
+  "proxy.maguojie-1.workers.dev": dockerHub,
+  // "quay.proxy.maguojie-1.workers.dev": "https://quay.io",
+  // "gcr.proxy.maguojie-1.workers.dev": "https://gcr.io",
+  // "k8s-gcr.proxy.maguojie-1.workers.dev": "https://k8s.gcr.io",
+  // "k8s.proxy.maguojie-1.workers.dev": "https://registry.k8s.io",
+  // "ghcr.proxy.maguojie-1.workers.dev": "https://ghcr.io",
+  // "cloudsmith.proxy.maguojie-1.workers.dev": "https://docker.cloudsmith.io",
+  // "ecr.proxy.maguojie-1.workers.dev": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.proxy.maguojie-1.workers.dev": dockerHub,
+  // "docker-staging.proxy.maguojie-1.workers.dev": dockerHub,
 };
 
 function routeByHosts(host) {
